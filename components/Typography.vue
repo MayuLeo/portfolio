@@ -1,5 +1,5 @@
 <template>
-  <p class="font-notoSans">{{ props.text }}</p>
+  <p class="font-notoSans whitespace-pre-wrap">{{ props.text }}</p>
 </template>
 
 <script setup lang="ts">
