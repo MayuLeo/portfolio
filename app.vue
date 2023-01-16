@@ -121,7 +121,7 @@
           class="text-4xl font-semibold text-gray-700"
           text="Artifacts"
         />
-        <div class="flex w-full gap-x-16 px-4">
+        <div class="flex justify-center w-full gap-x-16 px-4">
           <div class="shadow-md max-w-[512px] min-w-[384px] p-4">
             <Typography
               class="text-gray-700"
