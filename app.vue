@@ -70,8 +70,6 @@
             />
           </div>
         </div>
-
-        <!--  -->
         <Typography
           class="text-2xl font-semibold text-gray-700 pl-2 pt-6"
           text="OS"
@@ -113,7 +111,6 @@
             />
           </div>
         </div>
-        <!--  -->
       </div>
       <!-- Artifacts -->
       <div class="flex flex-col py-16 px-2 w-[960px] gap-y-4">
