@@ -152,3 +152,11 @@
     </main>
   </div>
 </template>
+
+<script lang="ts">
+export default defineComponent({
+  app: {
+    cdnURL: "/portfolio/",
+  },
+});
+</script>
