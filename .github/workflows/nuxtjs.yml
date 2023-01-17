@@ -71,6 +71,10 @@ jobs:
         run: yarn
       - name: Static HTML export with Nuxt
         run: yarn run generate
+      - name: set .nojekyll
+        run: touch ./.output/public/.nojekyll
+      - name: pwd
+        run: pwd
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
