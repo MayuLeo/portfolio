@@ -75,6 +75,8 @@ jobs:
         run: touch ./.output/public/.nojekyll
       - name: pwd
         run: pwd
+      - name: ls
+        run: ls
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
