@@ -1,8 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   css: ["~/assets/css/main.css"],
+  ssr: false,
   app: {
-    cdnURL: "/portfolio/",
+    baseURL: "/portfolio/",
   },
   postcss: {
     plugins: {
